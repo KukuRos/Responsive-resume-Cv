@@ -81,7 +81,7 @@
 
     <main class="l-main bd-container">
         <!-- All elements within this div, is generated in PDF -->
-        <div class="resume">
+        <div class="resume" id="area-cv">
             <div class="resume__left">
                 <!-- ====== HOME ====== -->
                 <section class="home" id="home">
@@ -109,16 +109,13 @@
                             </span>
                         </div>
                     </div>
+                    <!-- Theme change button  -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the PDF. Available for Desktop -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
                 </section>
                 
-
-
-                <!-- Theme change button  -->
-
-
-                <!-- Button to generate and download the PDF. Available for Desktop -->
-
-
                 <!-- ========= SOCIAL ========== -->
                 <section class="social section">
                     <h2 class="section-title">SOCIAL</h2>
@@ -242,7 +239,7 @@
                             <div class="experience__data bd-grid">
                                 <h3 class="experience__title">SOFTWARE DEVELOPER</h3>
                                 <span class="experience__company">Dic 2021 to Present | Datagrowler</span>
-                                <span class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quibusdam natus quos sed aspernatur consequuntur esse quis, provident deleniti at.</span>
+                                <span class="experience__description">Si escribo mucho parece que queda fuera del area de impresi[on, asi que veremos si es as[i o es solo el ipsulum thingy</span>
                             </div>
                         </div>
                         <div class="experience__content">
@@ -370,7 +367,7 @@
 
 
     <!-- ======= HTML2PDF ======= -->
-    <script src=""></script>
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
 
 
     <!-- ======= MAIN JS ======= -->
